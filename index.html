@@ -4,6 +4,7 @@
 <head>
   <meta charset="UTF-8">
   <title>WS Domsters</title>
+  <link rel="stylesheet" href="node_modules/bootstrap/dist/css/bootstrap.min.css">
   <link rel="stylesheet" href="css/style.css">
 </head>
 
@@ -13,15 +14,35 @@
       <img src="img/logo.gif" alt="Jay Skript and the Domsters" />
     </header>
     <!-- END header -->
-    <nav>
-      <ul>
-        <li><a href="index.html">Home</a></li>
-        <li><a href="about.html">About</a></li>
-        <li><a href="photos.html">Photos</a></li>
-        <li><a href="live.html">Live</a></li>
-        <li><a href="contact.html">Contact</a></li>
-      </ul>
+    <!-- <nav>
+      
+    </nav> -->
+    <nav class="navbar navbar-light bg-faded">
+      <button class="navbar-toggler hidden-sm-up" type="button" data-toggle="collapse" data-target="#navbar-header" aria-controls="navbar-header">
+        &#9776;
+      </button>
+      <div class="collapse navbar-toggleable-xs" id="navbar-header">
+        <a class="navbar-brand" href="#">Lipsync-Battle</a>
+        <ul class="nav navbar-nav">
+          <li class="nav-item active">
+            <a class="nav-link" href="index.html">Home <span class="sr-only">(current)</span></a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="about.html">About</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="photos.html">Photos</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="live.html">Live</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="contact.html">Contact</a>
+          </li>
+        </ul>
+      </div>
     </nav>
+    <!-- /navbar -->
     <!-- END nav -->
     <div class="content">
       <h1>Welcome</h1>
@@ -29,7 +50,7 @@
     </div>
     <!-- END .content -->
     <footer>
-      <p>&copy; 2016</p>
+      <p class="text-xs-center">&copy; 2016</p>
     </footer>
   </div>
   <!-- END .container -->

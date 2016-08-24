@@ -4,23 +4,40 @@
 <head>
   <meta charset="UTF-8">
   <title>WS Domsters: Photos</title>
+  <link rel="stylesheet" href="node_modules/bootstrap/dist/css/bootstrap.min.css">
   <link rel="stylesheet" href="css/style.css">
 </head>
 
-<body>
+<body id="photos">
   <div class="container">
     <header>
       <img src="img/logo.gif" alt="Jay Skript and the Domsters" />
     </header>
     <!-- END header -->
-    <nav>
-      <ul>
-        <li><a href="index.html">Home</a></li>
-        <li><a href="about.html">About</a></li>
-        <li><a href="photos.html">Photos</a></li>
-        <li><a href="live.html">Live</a></li>
-        <li><a href="contact.html">Contact</a></li>
-      </ul>
+    <nav class="navbar navbar-light bg-faded">
+      <button class="navbar-toggler hidden-sm-up" type="button" data-toggle="collapse" data-target="#navbar-header" aria-controls="navbar-header">
+        &#9776;
+      </button>
+      <div class="collapse navbar-toggleable-xs" id="navbar-header">
+        <a class="navbar-brand" href="#">Lipsync-Battle</a>
+        <ul class="nav navbar-nav">
+          <li class="nav-item active">
+            <a class="nav-link" href="index.html">Home <span class="sr-only">(current)</span></a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="about.html">About</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="photos.html">Photos</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="live.html">Live</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="contact.html">Contact</a>
+          </li>
+        </ul>
+      </div>
     </nav>
     <!-- END nav -->
     <div class="content">
@@ -28,22 +45,22 @@
       <ul id="imagegallery">
         <li>
           <a href="img/photos/concert.jpg" title="The crowd goes wild">
-            <img src="img/photos/thumbnail_concert.jpg" alt="the band in concert" />
+            <img class="img-circle" src="img/photos/thumbnail_concert.jpg" alt="the band in concert" />
           </a>
         </li>
         <li>
           <a href="img/photos/bassist.jpg" title="An atmospheric moment">
-            <img src="img/photos/thumbnail_bassist.jpg" alt="the bassist" />
+            <img class="img-circle" src="img/photos/thumbnail_bassist.jpg" alt="the bassist" />
           </a>
         </li>
         <li>
           <a href="img/photos/guitarist.jpg" title="Rocking out">
-            <img src="img/photos/thumbnail_guitarist.jpg" alt="the guitarist" />
+            <img class="img-circle" src="img/photos/thumbnail_guitarist.jpg" alt="the guitarist" />
           </a>
         </li>
         <li>
           <a href="img/photos/crowd.jpg" title="Encore! Encore!">
-            <img src="img/photos/thumbnail_crowd.jpg" alt="the audience" />
+            <img class="img-circle" src="img/photos/thumbnail_crowd.jpg" alt="the audience" />
           </a>
         </li>
       </ul>
