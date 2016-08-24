@@ -1,0 +1,23 @@
+{
+  "name": "ws-domsters",
+  "version": "1.0.0",
+  "description": "## Description We take an existing site and transform it using modern web technologies.",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/rosariotinoco/lipsync-battles.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/rosariotinoco/lipsync-battles/issues"
+  },
+  "homepage": "https://github.com/rosariotinoco/lipsync-battles#readme",
+  "dependencies": {
+    "bootstrap": "^4.0.0-alpha.3"
+  }
+}
