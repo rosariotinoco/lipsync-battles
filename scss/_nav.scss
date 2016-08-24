@@ -1,0 +1,68 @@
+nav {
+  color: $gun-powder;
+  background-color: $slate-grey;
+  border-color: $dolphin;
+  ul {
+    border-color: $santas-gray;
+  }
+  a:link,
+  a:visited {
+    color: $titan-white;
+    background-color: transparent;
+    border-color: $santas-gray;
+  }
+  a:hover {
+    color: $cape-cod;
+    background-color: $porche;
+  }
+  a:active {
+    color: $dolphin;
+    background-color: $flax;
+  }
+}
+
+nav a.here:link,
+nav a.here:visited,
+nav a.here:hover,
+nav a.here:active {
+  color: $titan-white;
+  background-color: $juniper;
+}
+
+nav {
+  background-image: url(../img/navbar.gif);
+  background-position: bottom left;
+  background-repeat: repeat-x;
+  border-width: .1em;
+  border-style: solid;
+  border-bottom-width: 0;
+  border-top-width: 0;
+  padding-left: 10%;
+}
+
+nav ul {
+  width: 100%;
+  overflow: hidden;
+  border-left-width: .1em;
+  border-left-style: solid;
+}
+
+nav li {
+  display: inline;
+}
+
+nav li a {
+  display: block;
+  float: left;
+  padding: .5em 2em;
+  border-right: .1em solid;
+}
+
+nav {
+  font-family: "Lucida Grande", "Helvetica", "Arial", sans-serif;
+}
+
+nav a {
+  text-decoration: none;
+  font-weight: bold;
+}
